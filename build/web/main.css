@@ -1,0 +1,106 @@
+/*
+ main.css
+ =================
+ CSS file for whole web page
+
+ AUTHOR: Myungsuk Choi (myusuch@gmail.com, 991 388 329)
+ CREATED: 2016-07-29
+ UPDATED: 2016-07-30
+*/
+/*
+    Created on : Jul 28, 2016, 8:15:40 PM
+    Author     : myusu
+*/
+
+
+
+#header {
+    /*	position : relative;	*/
+    width : 98%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-align: center;
+
+
+}
+#content{
+    position : relative;
+
+
+}
+
+
+
+#left {
+    float: left;
+    width : 40%;
+
+    padding-right : 20px;
+    text-align: center;
+
+
+}
+#right {
+    float: left;
+    width : 55%;
+
+    border-left-style: solid;
+    border-left-width: 1px;
+
+    padding-left : 3px;
+    padding-right : 3px;
+    background-color: #eeeeee;
+
+
+}
+
+.message{
+
+    text-align: left;
+    clear: both;
+    padding : 20px;
+    padding-left : 60px;
+
+
+}
+#errorMessge {
+
+    color : red;
+    text-align: left;
+    padding-left : 60px;
+}
+
+
+#button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+
+    font-size: 15px;
+    width : 160px;
+}
+
+
+
+.fieldcontainer {
+    clear: both;
+}
+
+.label {
+
+    float : left;
+    width: 180px;
+    padding-bottom: 10px;
+
+    text-align: right;
+
+}
+
+.field {
+    float : left;
+    text-align: left;
+     margin-left : 4px;
+
+
+}
+
